@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right top, rgb(244, 9, 197), rgba(65, 164, 234, 0.867));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#presentacion {
+    text-align: center;
+    padding: 0px;
+    font-size: 75px;
+    margin-top: 0px;
+    margin: 0px;
+}
+#presentacion h1 {
+    font-size: 90%;
+    background-size: fit-content;
+    font-style: oblique;
+}
+
+#presentacion #img1{
+    margin-top: 2.5%;
+    border: solid black;
+    box-shadow: 2px 2px 20px;
+    border-radius: 10%;
+    height: 200px;
+    float: center;
+    filter: brightness(0%);
+}   
+#presentacion #img1:hover{
+    margin-top: 2.5%;
+    border: solid burlywood;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 10%;
+    height:500px;
+    float: center;
+    filter: brightness(100%);
+}   
+
+
+
+
+
+
+#cuadro h6{
+    color: black;
+    border:0cm;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#cuadro{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: fit-content;
+    margin-left: 25%;
+    background-color:rgba(133, 198, 244, 0.867);
+    color:rgba(0, 79, 148, 0);
+    margin:0px;
+    height:60%;
+    font-size: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#epilogo {
+    margin-left : 20%;
+    margin-right: 20%;
+    font-size: 175%;
+    font-style: italic;
+}
+
+
+
+
+
+h2{
+    text-decoration: underline;
+    margin-top: 150px;
+    margin-left: 5%;
+    font-size: 190%;
+}

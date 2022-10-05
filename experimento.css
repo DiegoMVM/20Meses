@@ -1,0 +1,113 @@
+.div0{
+    border-radius: 25px 25px 25px 25px;
+    width: fit-content;
+    padding-top: 0px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 20px ;
+}
+
+#div1{
+    margin-bottom:-4px;
+    max-width: fit-content;
+    font-family:Arial, Helvetica, sans-serif ;
+    border:solid black ;
+    margin-top: 0px;
+    padding-top: 20px;
+    border-radius: 25px 25px 0px 0px;
+
+
+}
+
+.div2 {
+    margin-top:0px;
+    width: 350px;
+    border-radius: 0px 0px 25px 25px ;
+    border:solid black ;
+}
+
+#div1 , .div2 {
+    display: block
+}
+.impar, .par {
+    display: block;
+}
+
+
+
+.impar:hover .div2{
+    width: 600px;
+    filter:blur(0px);
+}
+.par:hover .div2{
+    width:  600px;
+    filter:blur(0px);
+}
+
+
+
+
+.impar {
+    max-width: fit-content;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 25px 25px 25px 25px;
+    background-blend-mode: color-burn;
+    background: linear-gradient(78deg, rgba(244, 9, 197), rgba(79, 167, 230, 0.867));
+}
+
+
+.par {
+    max-width: fit-content;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border-radius:25px 25px 25px 25px;
+    background: linear-gradient(78deg,  rgba(44, 158, 239, 0.867),rgb(236, 64, 201));
+}
+
+
+
+
+.especial {
+    border-radius: 25px 25px 25px 25px;
+    max-width: fit-content;
+    padding-top: 0px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 40px burlywood;
+ 
+}
+.especial{
+    max-width: fit-content;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background: linear-gradient(78deg,  burlywood, darkgoldenrod);
+}
+
+.especial #div1{
+    margin-bottom:-4px;
+    max-width: fit-content;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: italic;
+    border:solid darkgoldenrod ;
+    margin-top: 0px;
+    padding-top: 20px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.especial .div2 {
+    margin-top:0px;
+    width: 350px;
+    border-radius: 0px 0px 25px 25px ;
+    border:solid rgb(173, 129, 15) ;
+}
+
+.blur .div2 {
+    filter:blur(30px);
+}
+
+.uncolor .div2 {
+
+   filter:saturate(0%)
+}
+
+
